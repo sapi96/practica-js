@@ -83,14 +83,14 @@ function CalcularPerimetroCuadrado(){
     const value = input.value;
 
     const perimetro=perimetroCuadrado(value);
-    alert("El perímetro del cuadrado es de: "+perimetro);
+    alert("El perímetro del cuadrado es de: "+perimetro+"cm");
 }
 function CalcularAreaCuadrado(){
     const input = document.getElementById("InputCuadrado");
     const value = input.value;
 
     const area=areaCuadrado(value);
-    alert("El área del cuadrado es de: "+area);
+    alert("El área del cuadrado es de: "+area+"cm2");
 }
 
 //Triangulo
@@ -103,7 +103,7 @@ function CalcularPerimetroTriangulo(){
     const value3 = Number(input3.value);
 
     const perimetro = perimetroTriangulo(value1,value2,value3);
-    alert("El perimetro del triangulo es de: " +perimetro);
+    alert("El perimetro del triangulo es de: " +perimetro+"cm");
 }
 function CalcularAreaTriangulo(){
     const input1 = document.getElementById("InputTriangulo1");
@@ -113,7 +113,7 @@ function CalcularAreaTriangulo(){
     const input3 = document.getElementById("InputTriangulo3");
     const value3 = Number(input3.value);
     const area = areaTriangulo(value1,value2,value3);
-    alert("El area del triangulo es de: " +area);
+    alert("El area del triangulo es de: " +area+"cm2");
 }
 
 
@@ -123,12 +123,12 @@ function CalcularPerimetroCirculo(){
     const value = input.value;
 
     const perimetro=perimetroCirculo(value);
-    alert("El perímetro del círculo es de "+perimetro);
+    alert("El perímetro del círculo es de "+perimetro+"cm");
 }
 function CalcularAreaCirculo(){
     const input = document.getElementById("InputCirculo");
     const value = input.value;
 
     const area=areaCirculo(value);
-    alert("El área del círculo es de: "+area);
+    alert("El área del círculo es de: "+area+"cm2")
 }
