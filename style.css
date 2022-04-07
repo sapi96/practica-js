@@ -12,6 +12,7 @@ header{
     margin: 0;
     padding: 0;
     border-radius: 0.5rem;
+    font-size: larger;
 }
 main{
     display: grid;
@@ -23,37 +24,62 @@ main{
 h2{
     display: flex;
     justify-content: center;
+    font-size: large;
 }
 .cuadrado{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     border-style: solid;
     border-color: red;
     border-radius: 0.5rem;
     margin: 1rem;
     background-color: white;
+    font-size: medium;
+}
+.cuadrado form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: stretch;
 }
 .triangulo{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     border-style: solid;
     border-color: blue;
     border-radius: 0.5rem;
     margin: 1rem;
     background-color: white;
+    font-size: medium;
+}
+.triangulo form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: stretch;
 }
 .circulo{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     border-style: solid;
     border-color: yellow;
     border-radius: 0.5rem;
     margin: 1rem;
     background-color: white;
+    font-size: medium;
+}
+.circulo form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+.footer{
+    display: flex;
+    justify-content: end;
 }
